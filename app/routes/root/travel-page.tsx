@@ -94,7 +94,7 @@ const TravelPage = ({ loaderData }: Route.ComponentProps) => {
             </section>
 
             <section className="pt-20 wrapper flex flex-col gap-10 h-full">
-                <Header title="Featured Travel Destinations" description="Check out some of the best places you visit around the world" />
+                <Header title="Top Travel Destinations" description="Explore some of the most amazing destinations around the world" />
                 <div className="featured">
                 <article>
                     <FeaturedDestination
@@ -151,7 +151,7 @@ const TravelPage = ({ loaderData }: Route.ComponentProps) => {
             </section>
 
             <section id="trips" className="py-20 wrapper flex flex-col gap-10">
-                <Header title="Handpicked Trips" description="Browse well-planned trips designes for your travel style" />
+                <Header title="Curated Travel Experiences" description="Explore expertly crafted trips tailored to your travel style" />
 
                 <div className="trip-grid">
                     {trips.map((trip) => (
@@ -184,7 +184,7 @@ const TravelPage = ({ loaderData }: Route.ComponentProps) => {
                             alt="logo"
                             className="size-[30px]"
                         />
-                        <h1>Tourvisto</h1>
+                        <h1>Travelers</h1>
                     </Link>
 
                     <div>

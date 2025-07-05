@@ -19,11 +19,11 @@ const RootNavbar = () => {
             <header className="root-nav wrapper">
                 <Link to='/' className="link-logo">
                     <img src="/assets/icons/logo.svg" alt="logo" className="size-[30px]" />
-                    <h1>Tourvisto</h1>
+                    <h1>Travelers</h1>
                 </Link>
 
                 <aside>
-                    {user.status === 'admin' && (
+                    {user?.status === 'admin' && (
                         <Link to="/dashboard" className={cn('text-base font-normal text-white', {"text-dark-100": location.pathname.startsWith('/travel')})}>
                             Admin Panel
                         </Link>
